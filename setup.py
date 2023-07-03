@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="create-wheel",
     version="0.0.1",
-    author="Gabriel Cánepa",
+    author="Gabriel CÃ¡nepa",
     description="Package to demonstrate how to create a wheel",
     long_description=long_description,
     long_description_content_type="text/markdown",
