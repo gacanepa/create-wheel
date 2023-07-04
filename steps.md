@@ -35,3 +35,20 @@ python -m build
 cd dist
 pip install create_wheel-0.0.1-py3-none-any.whl 
 ```
+
+7. To test, get into a Python REPL:
+
+```bash
+python
+```
+
+8. Import the functions from the package:
+
+```python
+from create_wheel.get_odd_or_even import get_odd, get_even
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+get_odd(numbers_list)
+# -> [1, 3, 5, 7, 9, 11]
+get_even(numbers_list)
+# -> [2, 4, 6, 8, 10, 12]   
+```
