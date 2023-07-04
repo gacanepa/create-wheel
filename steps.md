@@ -32,5 +32,6 @@ python -m build
 6. Install the wheel after replacing **create_wheel-0.0.1-py3-none-any.whl** for the corresponding filename:
 
 ```bash
+cd dist
 pip install create_wheel-0.0.1-py3-none-any.whl 
 ```
